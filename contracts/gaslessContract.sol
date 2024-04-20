@@ -169,3 +169,7 @@ contract ERC20Permit is ERC20 {
         _burn(from, amount);
     }
 }
+
+
+// code testinh
+// docker run -v /d/programing/blockchain/gasless-token/contracts:/mt mythril/myth analyze /mt/gaslessContract.sol -t 4 -o markdown --execution-timeout 1
