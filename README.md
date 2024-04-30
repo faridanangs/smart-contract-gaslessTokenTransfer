@@ -1,15 +1,9 @@
+# Smart Contract gasless token transfer
+
 ![image](https://raw.githubusercontent.com/faridanangs/my-portfolio/main/public/projects/smartcontract/gaslesstoken.webp)
 
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+# To carry out testing using dynamic testing, follow the steps below
+1. git clone https://github.com/faridanangs/smart-contract-gaslessTokenTransfer.git
+2. cd smart-contract-gaslessTokenTransfer
+3. npm i
+4. npx hardhat test ./test/gaslessContract.js
